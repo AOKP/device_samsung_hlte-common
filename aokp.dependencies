@@ -13,12 +13,6 @@
   },
   {
     "remote": "los",
-    "repository": "android_external_stlport",
-    "target_path": "external/stlport",
-    "branch": "lineage-15.0"
-  },
-  {
-    "remote": "los",
     "repository": "android_packages_apps_FlipFlap",
     "target_path": "packages/apps/FlipFlap",
     "branch": "staging/lineage-15.1"
