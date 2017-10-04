@@ -20,11 +20,12 @@ LOCAL_SHARED_LIBRARIES := \
 LOCAL_C_INCLUDES := \
     system/media/camera/include
 
-LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
 LOCAL_MODULE := camera.msm8974
+LOCAL_MODULE_RELATIVE_PATH := hw
 LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libbase libarect android.hidl.token@1.0
 LOCAL_HEADER_LIBRARIES := libnativebase_headers
+LOCAL_PROPRIETARY_MODULE := true
 
 include $(BUILD_SHARED_LIBRARY)
 
