@@ -61,9 +61,6 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 # CMHW
 BOARD_HARDWARE_CLASS += hardware/samsung/lineagehw
 
-# RIL
-BOARD_RIL_CLASS := ../../../device/samsung/hlte-common/ril
-
 # Graphics
 TARGET_HAVE_NEW_GRALLOC := true
 
@@ -87,6 +84,10 @@ BOARD_CACHEIMAGE_FILE_SYSTEM_TYPE := f2fs
 # Power HAL
 TARGET_POWERHAL_VARIANT := qcom
 TARGET_POWERHAL_SET_INTERACTIVE_EXT := $(LOCAL_PATH)/power/power_ext.c
+
+# Radio
+BOARD_PROVIDES_LIBRIL := true
+TARGET_RIL_VARIANT := caf
 
 # Recovery
 BOARD_HAS_LARGE_FILESYSTEM := true
