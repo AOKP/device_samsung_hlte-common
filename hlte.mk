@@ -73,6 +73,7 @@ PRODUCT_COPY_FILES += \
 # camera
 PRODUCT_PACKAGES += \
     camera.msm8974 \
+    libshim_camera \
     libstlport \
     libxml2 \
     Snap
