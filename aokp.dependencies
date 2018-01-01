@@ -3,13 +3,13 @@
     "remote": "los",
     "repository": "android_device_samsung_msm8974-common",
     "target_path": "device/samsung/msm8974-common",
-    "branch": "lineage-15.0"
+    "branch": "lineage-15.1"
   },
   {
     "remote": "los",
     "repository": "android_kernel_samsung_msm8974",
     "target_path": "kernel/samsung/msm8974",
-    "branch": "lineage-15.0"
+    "branch": "lineage-15.1"
   },
   {
     "remote": "los",
@@ -21,6 +21,6 @@
     "remote": "los",
     "repository": "android_packages_apps_FlipFlap",
     "target_path": "packages/apps/FlipFlap",
-    "branch": "lineage-15.0"
+    "branch": "staging/lineage-15.1"
   }
 ]
