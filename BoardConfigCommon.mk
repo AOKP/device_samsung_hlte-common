@@ -87,7 +87,6 @@ TARGET_POWERHAL_SET_INTERACTIVE_EXT := $(COMMON_PATH)/power/power_ext.c
 TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
 
 # Radio
-BOARD_PROVIDES_LIBRIL := true
 TARGET_RIL_VARIANT := caf
 
 # Recovery
