@@ -46,7 +46,7 @@ static void sysfs_write(char *path, char *s) {
     close(fd);
 }
 
-void cm_power_set_interactive_ext(int on) {
+void power_set_interactive_ext(int on) {
     ALOGD("%s: %s input devices", __func__, on ? "enabling" : "disabling");
     sysfs_write(TSP_POWER, on ? "1" : "0");
     sysfs_write(TOUCHKEY_POWER, on ? "1" : "0");
