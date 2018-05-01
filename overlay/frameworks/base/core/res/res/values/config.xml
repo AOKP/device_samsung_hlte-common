@@ -272,4 +272,7 @@
     <!-- hardware keys on/off switch -->
     <bool name="config_hwKeysPref">true</bool>
 
+    <!-- disable sensor batching as a fix for rotation issues -->
+    <bool name="config_useDefaultBatchingForAccel">false</bool>
+
 </resources>
