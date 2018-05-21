@@ -541,13 +541,13 @@
 	<path name="handset">
 		<path name="rcv" />
 		<ctl name="EAR PA Gain" value="POS_3_DB" />
-		<ctl name="RX1 Digital Volume" value="84" />
+		<ctl name="RX1 Digital Volume" value="94" />
 	</path>
 
 	<path name="speaker">
 		<ctl name="SPK Status" value="1" />
 		<path name="spk" />
-		<ctl name="RX7 Digital Volume" value="81" />
+		<ctl name="RX7 Digital Volume" value="91" />
 		<ctl name="SPK DRV Volume" value="8" />
 		<ctl name="COMP0 Switch" value="1" />
 	</path>
@@ -556,15 +556,15 @@
 		<path name="ear" />
 		<ctl name="HPHL Volume" value="20" />
 		<ctl name="HPHR Volume" value="20" />
-		<ctl name="RX1 Digital Volume" value="77" />
-		<ctl name="RX2 Digital Volume" value="77" />
+		<ctl name="RX1 Digital Volume" value="87" />
+		<ctl name="RX2 Digital Volume" value="87" />
 		<ctl name="COMP1 Switch" value="1" />
 	</path>
 
 	<path name="dock">
 		<path name="lineout" />
-		<ctl name="RX3 Digital Volume" value="83" />
-		<ctl name="RX5 Digital Volume" value="83" />
+		<ctl name="RX3 Digital Volume" value="93" />
+		<ctl name="RX5 Digital Volume" value="93" />
 		<ctl name="LINEOUT1 Volume" value="19" />
 		<ctl name="LINEOUT2 Volume" value="19" />
 		<ctl name="COMP2 Switch" value="1" />
@@ -574,31 +574,31 @@
 		<path name="spk-ear" />
 		<ctl name="HPHL Volume" value="0" />
 		<ctl name="HPHR Volume" value="0" />
-		<ctl name="RX1 Digital Volume" value="76" />
-		<ctl name="RX2 Digital Volume" value="76" />
-		<ctl name="RX7 Digital Volume" value="81" />
+		<ctl name="RX1 Digital Volume" value="86" />
+		<ctl name="RX2 Digital Volume" value="86" />
+		<ctl name="RX7 Digital Volume" value="91" />
 		<ctl name="SPK DRV Volume" value="8" />
 	</path>
 
 	<path name="speaker-and-hdmi">
 		<path name="spk" />
-		<ctl name="RX7 Digital Volume" value="84" />
+		<ctl name="RX7 Digital Volume" value="94" />
 		<ctl name="SPK DRV Volume" value="7" />
 	</path>
 
 	<path name="speaker-and-proxy">
 		<path name="spk" />
-		<ctl name="RX7 Digital Volume" value="84" />
+		<ctl name="RX7 Digital Volume" value="94" />
 		<ctl name="SPK DRV Volume" value="7" />
 	</path>
 
 	<path name="speaker-and-dock">
 		<path name="spk-lineout" />
-		<ctl name="RX3 Digital Volume" value="84" />
-		<ctl name="RX5 Digital Volume" value="84" />
+		<ctl name="RX3 Digital Volume" value="94" />
+		<ctl name="RX5 Digital Volume" value="94" />
 		<ctl name="LINEOUT1 Volume" value="19" />
 		<ctl name="LINEOUT2 Volume" value="19" />
-		<ctl name="RX7 Digital Volume" value="81" />
+		<ctl name="RX7 Digital Volume" value="91" />
 		<ctl name="SPK DRV Volume" value="7" />
 	</path>
 
@@ -621,19 +621,19 @@
 		<ctl name="Main Mic Delay" value="4" />
 		<path name="main-mic" />
 		<ctl name="ADC1 Volume" value="15" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="99" />
 	</path>
 
 	<path name="rec-sub-mic">
 		<path name="sub-mic" />
 		<ctl name="ADC3 Volume" value="14" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="99" />
 	</path>
 
 	<path name="rec-headset-mic">
 		<path name="ear-mic" />
 		<ctl name="ADC2 Volume" value="14" />
-		<ctl name="DEC5 Volume" value="72" />
+		<ctl name="DEC5 Volume" value="99" />
 	</path>
 
 	<path name="rec-stereo-mic">
@@ -648,27 +648,27 @@
 	<path name="rec-high-gain-main-mic">
 		<path name="main-mic" />
 		<ctl name="ADC1 Volume" value="11" />
-		<ctl name="DEC6 Volume" value="84" />
+		<ctl name="DEC6 Volume" value="99" />
 	</path>
 
 	<path name="rec-high-gain-sub-mic">
 		<path name="sub-mic" />
 		<ctl name="ADC3 Volume" value="19" />
-		<ctl name="DEC4 Volume" value="94" />
+		<ctl name="DEC4 Volume" value="99" />
 	</path>
 
 	<path name="rec-high-gain-headset-mic">
 		<path name="ear-mic" />
 		<ctl name="ADC2 Volume" value="14" />
-		<ctl name="DEC5 Volume" value="84" />
+		<ctl name="DEC5 Volume" value="99" />
 	</path>
 
 	<path name="rec-high-gain-stereo-mic">
 		<path name="sub-3rd-mic" />
 		<ctl name="ADC4 Volume" value="25" />
-		<ctl name="DEC3 Volume" value="84" />
+		<ctl name="DEC3 Volume" value="99" />
 		<ctl name="ADC3 Volume" value="25" />
-		<ctl name="DEC4 Volume" value="84" />
+		<ctl name="DEC4 Volume" value="99" />
 	</path>
 
 	<path name="rec-NS-mic-interview">
